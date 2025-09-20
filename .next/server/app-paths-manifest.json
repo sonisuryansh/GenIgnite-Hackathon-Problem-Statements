@@ -1,0 +1,7 @@
+{
+  "/contract/page": "app/contract/page.js",
+  "/create-ai/page": "app/create-ai/page.js",
+  "/create/page": "app/create/page.js",
+  "/nft/[hash]/page": "app/nft/[hash]/page.js",
+  "/page": "app/page.js"
+}

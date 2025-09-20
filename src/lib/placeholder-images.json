@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Abstract ink drawing",
+      "imageUrl": "https://picsum.photos/seed/story1/600/400",
+      "imageHint": "abstract ink"
+    },
+    {
+      "id": "2",
+      "description": "A typewriter with a sheet of paper",
+      "imageUrl": "https://picsum.photos/seed/story2/600/400",
+      "imageHint": "typewriter paper"
+    },
+    {
+      "id": "3",
+      "description": "An open book with glowing pages",
+      "imageUrl": "https://picsum.photos/seed/story3/600/400",
+      "imageHint": "glowing book"
+    },
+    {
+      "id": "4",
+      "description": "A cosmic nebula with stars",
+      "imageUrl": "https://picsum.photos/seed/story4/600/400",
+      "imageHint": "cosmic nebula"
+    },
+    {
+      "id": "5",
+      "description": "A person writing in a notebook",
+      "imageUrl": "https://picsum.photos/seed/story5/600/400",
+      "imageHint": "writing notebook"
+    },
+    {
+      "id": "6",
+      "description": "A futuristic city skyline",
+      "imageUrl": "https://picsum.photos/seed/story6/600/400",
+      "imageHint": "futuristic city"
+    },
+    {
+      "id": "7",
+      "description": "A pencil sketch of a face",
+      "imageUrl": "https://picsum.photos/seed/story7/600/400",
+      "imageHint": "pencil sketch"
+    },
+    {
+      "id": "8",
+      "description": "A close-up of a comic book panel",
+      "imageUrl": "https://picsum.photos/seed/story8/600/400",
+      "imageHint": "comic panel"
+    }
+  ]
+}

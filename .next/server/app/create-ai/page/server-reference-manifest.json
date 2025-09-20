@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40b2e381185a4340cfa0da3adafaa8e9c3995b6819": {
+      "workers": {
+        "app/create-ai/page": {
+          "moduleId": "[project]/.next-internal/server/app/create-ai/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/generate-content-with-ai.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "generateContentWithAI",
+          "filename": "src/ai/flows/generate-content-with-ai.ts"
+        }
+      },
+      "layer": {
+        "app/create-ai/page": "action-browser"
+      },
+      "exportedName": "generateContentWithAI",
+      "filename": "src/ai/flows/generate-content-with-ai.ts"
+    }
+  },
+  "edge": {}
+}
