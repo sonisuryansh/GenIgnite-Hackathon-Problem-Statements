@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useForm } from 'react-hook-form';
@@ -22,6 +21,7 @@ import { useRouter } from 'next/navigation';
 import { useToast } from '@/hooks/use-toast';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Wallet } from 'lucide-react';
+import withAuth from '@/components/auth/withAuth';
 
 const formSchema = z.object({
   title: z.string().min(3, { message: 'Title must be at least 3 characters long.' }),
@@ -29,7 +29,8 @@ const formSchema = z.object({
   content: z.string().min(20, { message: 'Content must be at least 20 characters long.' }),
 });
 
-export default function CreatePage() {
+// ✅ YAHAN SE "export default" HATA DIYA GAYA HAI
+function CreatePage() {
   const router = useRouter();
   const { isConnected, walletAddress, connectWallet } = useWallet();
   const { addNft } = useNftStore();
@@ -56,7 +57,10 @@ export default function CreatePage() {
 
     const newNft = addNft({
       ...values,
-      owner: walletAddress,
+      // NOTE: Aapke useNftStore ko owner ki jagah 'owners' array ki zaroorat ho sakti hai.
+      // Yeh aapke store ke structure par depend karta hai.
+      // Example: owners: [{ address: walletAddress, timestamp: Date.now() }]
+      owner: walletAddress, 
     });
 
     toast({
@@ -135,3 +139,6 @@ export default function CreatePage() {
     </div>
   );
 }
+
+// ✅ AUR SIRF YAHAN PAR "export default" RAKHA GAYA HAI
+export default withAuth(CreatePage);
