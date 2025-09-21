@@ -27,6 +27,7 @@ import { Loader2, Sparkles, Wallet } from 'lucide-react';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Separator } from '@/components/ui/separator';
 import { Skeleton } from '@/components/ui/skeleton';
+import withAuth from '@/components/auth/withAuth';
 
 const generationSchema = z.object({
   prompt: z.string().min(10, 'Prompt must be at least 10 characters.'),
@@ -37,7 +38,7 @@ const mintingSchema = z.object({
   description: z.string().min(10, 'Description is required.'),
 });
 
-export default function CreateWithAiPage() {
+ function CreateWithAiPage() {
   const router = useRouter();
   const { isConnected, walletAddress, connectWallet } = useWallet();
   const { addNft } = useNftStore();
@@ -191,3 +192,5 @@ export default function CreateWithAiPage() {
     </div>
   );
 }
+
+export default withAuth(CreateWithAiPage);
