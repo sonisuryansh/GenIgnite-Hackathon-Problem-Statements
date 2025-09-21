@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { AuthProvider } from '@/contexts/auth-context';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Providers } from './providers';
@@ -36,6 +37,7 @@ export default function RootLayout({
           'min-h-screen bg-background font-body antialiased'
         )}
       >
+        <AuthProvider>
         <Providers>
           <div className="relative flex min-h-screen flex-col">
             <Header />
@@ -44,6 +46,7 @@ export default function RootLayout({
           <DeploymentHistory />
           <Toaster />
         </Providers>
+        </AuthProvider>
       </body>
     </html>
   );
