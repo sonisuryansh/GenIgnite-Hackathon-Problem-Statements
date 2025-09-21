@@ -2,7 +2,7 @@
 
 # Genignite Pre-Hackathon Submission Template 
 
-<img src="![hey](https://github.com/user-attachments/assets/5c840892-f3cb-41f2-b44a-cffc82a9e3d8)" alt="Genignite Pre-Hackathon Logo"/>
+<img src="https://github.com/sonisuryansh/GenIgnite-Hackathon-Problem-Statements/blob/main/hey.jpg" alt="Genignite Pre-Hackathon Logo"/>
 
 <br/>
 
