@@ -1,79 +1,97 @@
-# GenIgnite Hackathon — Problem Statements
+<div align="center">
 
-<!-- Optional: add a badge or link to live demo if available -->
-[![Live Demo](https://epicmint.vercel.app)](https://epicmint.vercel.app)
+# Genignite Pre-Hackathon Submission Template 
 
----
+<img src="assets/logo/f58664d6c437.jpg" alt="Genignite Pre-Hackathon Logo"/>
 
-## 📝 Project Description
-
-This repository contains the **Problem Statements** for the *GenIgnite Hackathon*. Participants are expected to review these problem statements and propose solutions or build projects based on them.
+<br/>
 
 ---
 
-## 📂 Repository Structure
+The Submission Template for GenIgnite Pre-Hackathon IPEC
 
-GenIgnite-Hackathon-Problem-Statements/
-├── docs/ # Documentation files or extended problem descriptions
-├── src/ # Source code if any (starter code, templates, etc.)
-├── .gitignore # Files/folders to ignore in version control
-├── package.json # Dependencies & scripts for frontend / tooling
-├── tailwind.config.ts # Tailwind CSS configuration
-├── next.config.ts # Configuration for Next.js (if using Next.js)
-├── tsconfig.json # TypeScript configuration
-├── postcss.config.mjs # PostCSS config
-└── … # Other config / env files
+</div>
 
+## 1. Problem Statement Name
+
+Blockchain-Based NFT Marketplace for Stories, Comics & Poems
 
 ---
 
-## 🚀 Getting Started
+## 2. Problem Statement Description
 
-If you plan to use any starter code or templates from this repo, here’s how to set it up locally:
+Writers, poets, and comic artists face ongoing challenges in protecting their creative works, establishing true digital ownership, and earning fair compensation.  
+Existing platforms like Wattpad or Webtoon do not offer robust copyright protection or fair royalty distribution.  
 
-1. **Clone the repo**
+Our solution is a decentralized NFT-powered marketplace that enables creators to publish, tokenize, and monetize their stories, comics, and poems securely with blockchain.
 
+---
+
+## 3. Project Overview
+
+**StoryVerse** is a Web3 marketplace where creative works are minted as NFTs.  
+It provides:  
+- True ownership for creators.  
+- Transparent royalty distribution.  
+- Secure and traceable transactions.  
+- A modern UI/UX for browsing and buying stories, comics, and poems.  
+
+This fosters a global community where creators and readers interact directly, without intermediaries.
+
+---
+
+## 4. Architecture
+
+- **Frontend:** React.js (Next.js), Tailwind CSS, responsive UI  
+- **Backend:** Node.js + Express for APIs  
+- **Blockchain:** Solidity smart contracts on Ethereum (ERC-721 NFTs)  
+- **Database:** MongoDB for user profiles & metadata  
+- **Storage:** IPFS/Pinata for decentralized content storage  
+- **Deployment:** Vercel (frontend), Render (backend), and MetaMask wallet integration  
+
+---
+
+## 5. Tech Stack
+
+- **Frontend:** React.js, Next.js, Tailwind CSS, TypeScript  
+- **Backend:** Node.js, Express.js  
+- **Blockchain:** Solidity, Hardhat, Web3.js / Ethers.js  
+- **Database:** MongoDB Atlas  
+- **Storage:** IPFS / Pinata  
+- **Deployment:** Vercel, Render  
+- **Tools:** MetaMask, GitHub Actions, Docker  
+
+---
+
+## 6. Team Name
+
+HackWithIndia x Devnovate
+
+---
+
+## 7. Team Members & Details
+
+| Name              | Role                     | Email                       | LinkedIn | College Name |
+|-------------------|--------------------------|-----------------------------|----------|--------------|
+| Suryansh Soni     | Blockchain Developer     | sonisuryansh53@gmail.com    | https://www.linkedin.com/in/sonisuryansh/ | BBD University |
+| Shobhit Kumar     | Full-Stack Developer     | shobhitkumar1437@gmail.com  | https://www.linkedin.com/in/kumarshobhit1/| BBD University |
+| Sanoj Yadav       | Frontend Developer       | sanojyadav2700@gmail.com    | https://www.linkedin.com/in/sanoj-yadav3356| BBD University |
+| Rudra Pratap Singh| Full Stack minor         | rudrapratap112005@gmail.com | https://www.linkedin.com/in/rudra-pratap-singh-52bab1288/| BBD University |
+| Abhikalp Shikhar  | UI/UX and AI integration | shikharabhikalp@gmail.com   | https://www.linkedin.com/in/abhikalp-shikhar-a093b4294/ | BBD Univeersity |
+
+---
+
+## 8. Additional Links
+
+- [Project Demo/Video](https://drive.google.com/file/d/1xB8suNrtIJZEeedMEo8ZOCzdLXdF1ukZ/view?usp=drive_link)
+- [Deployed App](https://epicmint.vercel.app/)
+- [Smart Contract Repo](https://epicmint.vercel.app/contract)
+
+---
+
+## 9. Instructions for Evaluators
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/sonisuryansh/GenIgnite-Hackathon-Problem-Statements.git
    cd GenIgnite-Hackathon-Problem-Statements
-2. Install dependencies
-
-If there is a frontend / toolkit, you may need to run (example using npm):
-
-npm install
-
-Or check what scripts are in package.json under "scripts".
-
-🎯 How to Use / Contribute
-
-Read through the problem statements in docs/ to understand what challenges are laid out.
-
-Use templates or starter code in src/ (if any) as a base for building your solution.
-
-Submit your solution following the rules of the hackathon (code, presentation, demo etc.).
-
-Pull requests are welcome if you want to improve the problem descriptions, fix typos, enhance the setup, or add clarifying examples.
-
-
-🛠️ Tech Stack / Tools
-
-Here are some technologies / tools used or expected in this repo (depending on templates or starter code):
-
-1. JavaScript / TypeScript
-
-2. Next.js , Solidity and MetaMask
-
-3. Tailwind CSS for styling
-
-PostCSS
-
-Node.js for backend or tooling scripts
-
-⚠️ Notes
-
-1. This repo mainly serves as problem statements and possibly starter templates. Not all files may be “live” or fully functional out of the box.
-
-2. Depending on how teams / participants use this, they may need to adapt or extend the templates.
-
-3. Check environment variables / configs if you’re deploying or running locally.
-
