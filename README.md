@@ -59,7 +59,7 @@ This fosters a global community where creators and readers interact directly, wi
 - **Database:** MongoDB Atlas  
 - **Storage:** IPFS / Pinata  
 - **Deployment:** Vercel, Render  
-- **Tools:** MetaMask, GitHub Actions, Docker  
+- **Tools:** MetaMask, GitHub Actions, Docker
 
 ---
 
